@@ -11,7 +11,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/utils/functions.php");
 
 include_once($_SERVER['DOCUMENT_ROOT'] . "/layout/header.php");
 if (!isset($_GET['page'])) {
-    header("Location: http://localhost:8080/admin/index.php?page=dashboard");
+    header("Location: /admin/index.php?page=dashboard");
 }
 
 include_once($_SERVER['DOCUMENT_ROOT'] . "/layout/navbar.php");
@@ -56,7 +56,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/layout/sidebar.php");
                 </script>";
             }
         } else {
-            header("Location: http://localhost:8080/admin/index.php?page=users");
+            header("Location: /admin/index.php?page=users");
             exit();
         }
     }

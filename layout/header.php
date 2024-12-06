@@ -20,7 +20,7 @@
     <script src="../script/confirmDelete.js"></script>
     <script src="../script/title.js"></script>
 
-    <title>Lapor Heker</title>
+    <title>Lapor aja</title>
 
 </head>
 
