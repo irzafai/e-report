@@ -12,7 +12,7 @@ $report_solved = query("SELECT COUNT(status) as status FROM reports WHERE status
                 <?= $report_unsolved[0]['status'] ?>
             </h5>
             <p class="font-normal text-gray-300 text-xl">
-                Laporan masuk
+                Laporan diterima
             </p>
         </a>
     </div>
