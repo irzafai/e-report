@@ -14,6 +14,7 @@ if (!isset($_GET['page'])) {
     header("Location: /admin/index.php?page=dashboard");
 }
 
+
 include_once($_SERVER['DOCUMENT_ROOT'] . "/layout/navbar.php");
 include_once($_SERVER['DOCUMENT_ROOT'] . "/layout/sidebar.php");
 
